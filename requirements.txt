@@ -2,3 +2,5 @@ streamlit
 fastai
 Pillow
 requests
+PIL
+os
