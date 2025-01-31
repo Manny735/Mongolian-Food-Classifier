@@ -1,7 +1,6 @@
 streamlit
 fastai
-Pillow
-requests
-PIL
-os
+pillow
 gdown
+torch
+torchvision
