@@ -1,6 +1,6 @@
 
 streamlit
-fastai==2.7.12
+fastai==2.7.18
 pillow
 gdown
 torch
