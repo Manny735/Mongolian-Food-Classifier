@@ -12,7 +12,7 @@ st.title("Mongolian Foods Classifier 🥘")
 def load_model():
     # Google Drive file ID (replace with your file's ID)
     file_id = "1lujIhjfBh7LB0bNxvIrCiV96plymN01C"  # Replace with your file ID
-    model_url = f"https://drive.google.com/file/d/1lujIhjfBh7LB0bNxvIrCiV96plymN01C/view?usp=drive_link"
+    model_url = f"https://drive.google.com/uc?id=1lujIhjfBh7LB0bNxvIrCiV96plymN01C"
     model_path = "Mongolian_foods_classifier.pkl"
 
 
