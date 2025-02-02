@@ -7,7 +7,7 @@ from PIL import Image
 @st.cache_resource
 def load_model():
     file_id = "1KSwswl2QsNv2pVXSl2gBZnJk7_D5eLq-"  # Replace with your actual Google Drive file ID
-    url = f"https://drive.google.com/file/d/1KSwswl2QsNv2pVXSl2gBZnJk7_D5eLq-/view?usp=drive_link"
+    url = f"https://drive.google.com/uc?id=1KSwswl2QsNv2pVXSl2gBZnJk7_D5eLq-"
     model_path = Path("Mongolian_food_classifier.pkl")
 
     # Download model if it doesn't exist
