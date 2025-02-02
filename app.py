@@ -2,7 +2,7 @@ import streamlit as st
 from fastai.vision.all import *
 import gdown
 
-def load_model():
+def oad_model():
     url = '' 
     path = Path('Mongolian_foods_classifier.pkl')
     
