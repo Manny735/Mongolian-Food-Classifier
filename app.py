@@ -4,8 +4,8 @@ import gdown
 
 
 def load_model():
-    url = 'https://drive.google.com/uc?id=1NQ5aNhGP3mPpTgDcf0Ii9fT3X797qnuy'
-    path = Path('Mongolian_foods_classifier1.pkl')
+    url = 'https://drive.google.com/uc?id=1izjUOJkGkLUQkhXtgp-vkGTxklCVJUSK'
+    path = Path('Mongolian_foods_classifier2.pkl')
     
     if not path.exists():
         gdown.download(url, str(path), quiet=False)
