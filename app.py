@@ -3,8 +3,8 @@ from fastai.vision.all import *
 import gdown
 
 def load_model():
-    url = 'https://drive.google.com/file/d/1izjUOJkGkLUQkhXtgp-vkGTxklCVJUSK/view?usp=sharing' 
-    path = Path('Mongolian_foods_classifier2.pkl')
+    url = 'https://drive.google.com/drive/folders/1-0DrYx6w-ABkd-tSJTBsxQ139duEZuLX' 
+    path = Path('Mongolian_foods_classifier1.pkl')
     
     if not path.exists():
         gdown.download(url, str(path), quiet=False)
