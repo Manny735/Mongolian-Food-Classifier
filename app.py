@@ -2,9 +2,9 @@ import streamlit as st
 from fastai.vision.all import *
 import gdown
 
-def oad_model():
-    url = '' 
-    path = Path('Mongolian_foods_classifier.pkl')
+def load_model():
+    url = 'https://drive.google.com/file/d/1izjUOJkGkLUQkhXtgp-vkGTxklCVJUSK/view?usp=sharing' 
+    path = Path('Mongolian_foods_classifier2.pkl')
     
     if not path.exists():
         gdown.download(url, str(path), quiet=False)
