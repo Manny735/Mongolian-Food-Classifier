@@ -3,7 +3,7 @@ from fastai.vision.all import *
 import gdown
 
 def load_model():
-    url = 'https://drive.google.com/file/d/1NQ5aNhGP3mPpTgDcf0Ii9fT3X797qnuy/view?usp=drive_link' 
+    url = 'https://drive.google.com/file/d/1lujIhjfBh7LB0bNxvIrCiV96plymN01C/view?usp=drive_link' 
     path = Path('Mongolian_foods_classifier.pkl')
     
     if not path.exists():
