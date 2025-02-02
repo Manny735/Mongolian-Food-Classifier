@@ -6,9 +6,9 @@ from PIL import Image
 # Function to download and load the model
 @st.cache_resource
 def load_model():
-    file_id = "1NQ5aNhGP3mPpTgDcf0Ii9fT3X797qnuy"  # Replace with your actual Google Drive file ID
-    url = f"https://drive.google.com/file/d/1NQ5aNhGP3mPpTgDcf0Ii9fT3X797qnuy/view?usp=drive_link"
-    model_path = Path("Mongolian_food_classifier1.pkl")
+    file_id = "1KSwswl2QsNv2pVXSl2gBZnJk7_D5eLq-"  # Replace with your actual Google Drive file ID
+    url = f"https://drive.google.com/file/d/1KSwswl2QsNv2pVXSl2gBZnJk7_D5eLq-/view?usp=drive_link"
+    model_path = Path("Mongolian_food_classifier.pkl")
 
     # Download model if it doesn't exist
     if not model_path.exists():
